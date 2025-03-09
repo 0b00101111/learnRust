@@ -1,5 +1,13 @@
 use crate::task::Task;
 
+pub mod utils {
+    use super::Task;
+
+    pub fn print_task_details(task: &Task) {
+        println!("Task {}: {}", task.id, task.title);
+    }
+}
+
 pub struct TaskList {
     tasks: Vec<Task>,
 }
