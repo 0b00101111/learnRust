@@ -58,7 +58,7 @@ fn double_vector() -> Vec<i32> {
 
     // vector.iter().map(|x| x * 2).collect()
 
-    // Claude's appraoch:
+    // Claude's approach:
     (1..=10).map(|x| x * 2).collect()
 }
 
@@ -71,10 +71,10 @@ fn safe_get(vec: &Vec<i32>, index: usize) -> Option<i32> {
     //     None => None,
     // }
 
-    // Claude's appraoch:
+    // Claude's approach:
     // vec.get(index).map(|&x| x)
 
-    // Claude's another appraoch:
+    // Claude's another approach:
     vec.get(index).copied()
 
 }
