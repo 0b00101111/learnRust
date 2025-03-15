@@ -1,3 +1,5 @@
+# Assessment:
+
 ## Part 2: Strings (20 minutes)
 
 ### Exercise 2.1: String Concatenation
@@ -74,6 +76,8 @@ fn combine_strings(part1: &str, part2: &str, part3: &str) -> (String, String) {
 
 This revision properly aligns with our learning objectives and only requires techniques that were explicitly covered in the instructional phase.
 
+
+# My Answer:
 
 ```rust
 fn join_strings(strings: Vec<&str>, separator: &str) -> String {
